@@ -57,12 +57,10 @@
 .inner-rectangle{
   background: #FFFFFF;
   width: 90%;
-  height: 80%;
+  height: 90%;
   margin: 0 auto;
-  padding: 10px;
-
   position: relative;
-  top: 7%;
+
 }
 
 
@@ -93,9 +91,6 @@ section{
   margin-bottom: 0px;
 }
 
-#about{
-  height: 90px;
-}
 
 
 

@@ -2,6 +2,11 @@
     position: relative;
     top: 10%;
   }
+
+  #about{
+    height: 90px;
+  }
+  
   
   .helloThere{
   font-family: Roboto Slab;
@@ -28,10 +33,11 @@
   
   .description{
     font-family: Roboto condensed;
+    padding: 10px;
   font-style: normal;
   font-weight: bold;
   line-height: 20px;
-  font-size: 11px;
+  font-size: 15px;
   letter-spacing: 0.06em;
   text-align: left;
   color: #9D9391;
