@@ -71,19 +71,9 @@ body{
 	background-repeat: no-repeat;
 }
 
-.navigation{
-	background: rgb(43, 42, 42);
-		position: fixed;
-		z-index: 2;
-		height: 80px;
-		margin-bottom: 0px;
-		width: 277px;
-		overflow:hidden;
-		margin-top:0px;
-	}
-
-	.main{
-		position:absolute;
-		width: 277px;
-		left: 22px;
-	}
+.main{
+	display: flex;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+}

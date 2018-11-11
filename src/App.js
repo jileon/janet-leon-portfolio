@@ -10,15 +10,19 @@ class App extends Component {
   render() {
     return (
 
-    <section className= 'main'>
-           <DropdownMenu/>
-           <div></div>
+      <section className='main'>
+      <DropdownMenu/>
+     
+    <section className= 'container'>
+    <div></div>
       <section className="App">
-    
+     
+          
    
        <MyName/>
        <AboutMe/>
        <Work/>
+      </section>
       </section>
       </section>
 

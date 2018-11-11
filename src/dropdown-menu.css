@@ -1,4 +1,12 @@
 
+.navigation{
+	background: rgb(43, 42, 42);
+		position: fixed;
+		z-index: 2;
+		height: 80px;
+		overflow:hidden;
+        width: 90vw; 
+	}
 
 .dropbtn {
     font-size: 16px;
@@ -8,11 +16,11 @@
 }
 
 .dropdown {
-    position: absolute;
+    /* position: absolute; */
     width: 37px;
-    height: 47px;
-    right: 30px;
-    top: 0px;
+    /* height: 47px;
+    right: 30px; */
+    /* top: 0px; */
     background-color: none;
 }
 

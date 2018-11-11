@@ -3,29 +3,41 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab');
 
-.main{
+
+.container{
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-items: center;
+  text-align: center;
   flex-direction: column;
-}
+  box-sizing: border-box;
+  }
+  
+
+
+
 .App {
   text-align: center;
   box-sizing: border-box;
-  position: absolute;
-  width: 277px;
-  height: 473px;
+  /* position: absolute; */
+  width: 90vw;
+  height: 90vh;
+  margin-top:70px;
+ 
 
-  top: 54px;
-  margin-top: 15px;
 
 }
+
+
+
 .outline-section{
   border: 2px solid #635F5F;
   height: 90%;
   padding: 20px;
-  margin-top: 10px;
-  position: relative;
+  /* margin-top: 10px; */
+  /* position: relative; */
 }
 
 
@@ -39,14 +51,14 @@
   height: 70%;
   margin:  0 auto;
   padding: 10px;
-  position: relative;
-  top: 10%;
+  /* position: relative; */
+  /* top: 10%; */
 
 }
 
 .inner-rectangle{
   background: #FFFFFF;
-  width: 80%;
+  width: 90%;
   height: 80%;
   margin: 0 auto;
   padding: 10px;
@@ -71,9 +83,9 @@ padding: 1px;
 
 
 
-position: absolute;
+/* position: absolute;
 top: 5px;
-left: 25px;
+left: 25px; */
 
 
 }
