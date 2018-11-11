@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab');
 
 
-.container{
+/* .container{
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -12,20 +12,18 @@
   align-items: center;
   text-align: center;
   flex-direction: column;
-  box-sizing: border-box;
-  }
   
+  }
+   */
 
 
 
 .App {
   text-align: center;
-  box-sizing: border-box;
   /* position: absolute; */
   width: 90vw;
   height: 90vh;
   margin-top:70px;
- 
 
 
 }
