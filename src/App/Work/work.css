@@ -1,23 +1,80 @@
+.work-section{
+  height: 100vh;
+}
+
 .project{
   width: 100%;
   display: flex;
   flex-direction: row;
-  max-height: 100%;
-
-
+  border: 1px solid blue;
+  height: 100%;
+  margin-bottom: 20px;
 }
 
 
 .project button{
 background: #91867C;
-mix-blend-mode: normal;
-vertical-align: bottom;
-width: 250px;
+text-align: center;
+width: 50%;
+max-width: 150px;
 height: 42px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+animation: _animate-fade-in;
+animation-duration: 3s;
 
-margin-top: 40px;
 }
+
+.project button a {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 12px;
+text-align: center;
+text-decoration: none;
+color: #FFFFFF;
+}
+
+.project-text{
+  width: 100%;
+  overflow: scroll;
+  align-self: center;
+  margin-top: 30px;
+  max-height: 350px;
+  
+ 
+}
+
+
+
+.project-header{
+  width: 50%;
+height: 100%;
+}
+
+
+@-webkit-keyframes _animate-fade-in {
+  0% {
+    opacity: 0;
+    visibility: hidden; }
+  100% {
+    opacity: 1;
+    visibility: visible; } }
+
+@keyframes _animate-fade-in {
+  0% {
+    opacity: 0;
+    visibility: hidden; }
+  100% {
+    opacity: 1;
+    visibility: visible; } }
+
+._animate-fade-in {
+  -webkit-animation: _animate-fade-in 0.8s cubic-bezier(0.86, 0, 0.07, 1) forwards;
+  animation: _animate-fade-in 0.8s cubic-bezier(0.86, 0, 0.07, 1) forwards;
+  opacity: 0; }
+
+
 .project p {
   font-family: Roboto Condensed;
 font-style: normal;
@@ -25,33 +82,32 @@ font-weight: normal;
 line-height: 25px;
 font-size: 	1rem;
 letter-spacing: 0.03em;
-
+text-align: center;
 color: #9D9391;
 
 padding: 10px;
-margin-top: 40px;
 }
-
-.project-text{
-  width: 50%;
-  padding: 20px;
-}
-
 
 .project-img{
 
   width: 50%;
-  overflow: hidden;
+  max-width: 450px;
+  /* overflow: hidden; */
+  display: flex;
+  align-items: center;
+justify-content: center;
+/* animation: _animate-fade-in-right 2s; */
 }
 
 .project-img img{
-  width: 100%;
-max-width: 450px;
+  height: 90%; 
+  max-width: 100%;
+object-fit: contain;
 
 
 }
 
-h4{
+.project-header h4{
   font-family: Roboto Slab;
 font-style: normal;
 font-weight: normal;
@@ -63,5 +119,44 @@ color: #9D9391;
 
 text-align: left;
 
-padding: 10px;
+padding: 12px;
 }
+
+
+
+
+
+@-webkit-keyframes _animate-fade-in-right {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translate(50%, 0%);
+    transform: translate(50%, 0%); }
+  80% {
+    visibility: visible;
+    -webkit-transform: translate(-5%, 0%);
+    transform: translate(-5%, 0%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0%, 0%);
+    transform: translate(0%, 0%); } }
+
+@keyframes _animate-fade-in-right {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translate(50%, 0%);
+    transform: translate(50%, 0%); }
+  80% {
+    visibility: visible;
+    -webkit-transform: translate(-5%, 0%);
+    transform: translate(-5%, 0%); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0%, 0%);
+    transform: translate(0%, 0%); } }
+
+._animate-fade-in-right {
+  -webkit-animation: _animate-fade-in-right 0.8s cubic-bezier(0.86, 0, 0.07, 1) forwards;
+  animation: _animate-fade-in-right 0.8s cubic-bezier(0.86, 0, 0.07, 1) forwards;
+  opacity: 0; }

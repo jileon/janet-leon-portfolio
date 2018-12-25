@@ -3,9 +3,7 @@
     top: 10%;
   }
 
-  /* #about{
-    height: 90px;
-  } */
+
   
   
   .helloThere{
@@ -45,4 +43,6 @@
 
   }
 
- 
+  .about-section{
+    height: 100vh;
+  }

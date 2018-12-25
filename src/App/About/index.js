@@ -1,5 +1,5 @@
 import React from 'react';
-import './about.css';
+import './about.css'
 
 export default function AboutMe() {
     return (
@@ -7,7 +7,7 @@ export default function AboutMe() {
             <div id='about'>
 
             </div>
-            <section className='outline-section'>
+            <section className='outline-section about-section'>
                 <section className='outer-rectangle'>
                     <h3>About</h3>
                     <section className='inner-rectangle'>

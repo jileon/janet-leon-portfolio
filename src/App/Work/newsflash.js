@@ -1,21 +1,27 @@
 import React from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
+export default class  Newsflash extends React.Component {
 
-export default function  Newsflash (){
+
+  render(){
   return (
-    <section className="project">
+    <section  className="project">
 
-    <div className= 'project-text' >
+    <div className= 'project-header' >
     <h4>01</h4>
     <h4>News Flash</h4>
-    <p>
+    <div className= 'project-text'>
+    <p >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Pellentesque congue, enim et ornare facilisis, nisl arcu dignissim
       quam, ut dictum purus mi vitae felis. Curabitur blandit rhoncus
       nibh, eu ullamcorper tortor gravida in. Nunc condimentum ipsum
       magna, in volutpat nibh vehicula et.
     </p>
-  
-      <button type="button">
+    <button type="button">
       <a
       href="https://newsflashapp.herokuapp.com/"
       target="_blank"
@@ -24,11 +30,14 @@ export default function  Newsflash (){
       Visit Site
       </a>
       </button>
+    </div>
+  
+  
 
     </div>
 
 
-    <div className= 'project-img'>
+    <div data-aos="fade-left" className= 'project-img'>
     <img
       src={require("../images/newsflash.png")}
       alt="newsflash project"
@@ -39,5 +48,5 @@ export default function  Newsflash (){
 
   </section>
   )
-
+  }
 }

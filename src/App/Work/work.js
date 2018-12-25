@@ -4,21 +4,21 @@ import "./work.css";
 
 export default function Work() {
   return (
-    <React.Fragment>
-<div id="work" >
+<React.Fragment>
+<div id='work'>
 
-    </div>
-    <section className='outline-section'>
-        <section className='outer-rectangle'>
-            <h3>Work</h3>
-            <section className='inner-rectangle'>
+</div>
+<section className='outline-section work-section'>
+    <section className='outer-rectangle'>
+        <h3>Work</h3>
+        <section className='inner-rectangle'>
 
-                <section id='myWork'>
-                <Newsflash/>
-                </section>
-            </section>
+      
+<Newsflash/>
+       
         </section>
     </section>
+</section>
 </React.Fragment>
   );
 }
