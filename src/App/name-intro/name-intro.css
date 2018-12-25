@@ -5,42 +5,29 @@
 }
 
 header {
-    position: relative;
-    width: 245px;
-    height: 232px;
-    margin: 0 auto;
-    margin-top: 100px;
-    border-radius: 50%;
     background: rgba(233, 217, 212, 0.78);
-
+    border-radius: 50%;
+    width: 50vh;
+    height: 50vh;
+    margin: 0 auto;
 
     display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	flex-direction: column;
-    
-    width: 50vh;
-	height: 50vh;
-	margin: 3px;
-
     }
     
     header h1{
-    margin: 0 auto;
-    padding-top: 40px;
-    padding-right: 20px;
-    font-family: Petit Formal Script;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 52px;
-    font-size: 48px;
-    text-align: center;
-    letter-spacing: -0.07em;
-    color: #FFFFFF;
-    
-    text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.42);
-    transform: rotate(-8deg);
+        font-family: Petit Formal Script;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 52px;
+        font-size: 48px;
+        text-align: center;
+        letter-spacing: -0.07em;
+        color: #FFFFFF;
+        transform: rotate(-8deg); 
     }
     
     header h2 {

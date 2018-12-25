@@ -13,13 +13,13 @@ class App extends Component {
       <section className='main'>
 
      
-      <section className="App">
+
      
        <MyName/>
        <AboutMe/>
        <Work/>
 
-      </section>
+
       </section>
 
     );
