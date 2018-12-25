@@ -18,7 +18,7 @@ export default function Work (){
 
             <h4>01</h4>
             <h4>News Flash</h4>
-            <img  src={require('./images/newsflash.png')} alt='newsflash project'></img>
+            <img  src={require('../images/newsflash.png')} alt='newsflash project'></img>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque congue, 
                 enim et ornare facilisis, nisl arcu dignissim quam, ut dictum purus mi vitae felis.
                  Curabitur blandit rhoncus nibh, eu ullamcorper tortor gravida in. Nunc condimentum 
@@ -36,7 +36,7 @@ export default function Work (){
 
             <h4>02</h4>
             <h4>Dig</h4>
-            <img  src={require('./images/dig.png')} alt='newsflash project'></img>
+            <img  src={require('../images/dig.png')} alt='newsflash project'></img>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque congue, 
                 enim et ornare facilisis, nisl arcu dignissim quam, ut dictum purus mi vitae felis.
                  Curabitur blandit rhoncus nibh, eu ullamcorper tortor gravida in. Nunc condimentum 
@@ -55,7 +55,7 @@ export default function Work (){
 
             <h4>03</h4>
             <h4>California Burrito Company</h4>
-            <img  src={require('./images/cbcburrito.png')} alt='newsflash project'></img>
+            <img  src={require('../images/cbcburrito.png')} alt='newsflash project'></img>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque congue, 
                 enim et ornare facilisis, nisl arcu dignissim quam, ut dictum purus mi vitae felis.
                  Curabitur blandit rhoncus nibh, eu ullamcorper tortor gravida in. Nunc condimentum 

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 import MyName from './name-intro';
-import DropdownMenu from './dropdown-menu';
-import AboutMe from './about';
-import Work from './work';
+import DropdownMenu from './2- common/dropdown-menu';
+import AboutMe from './About';
+import Work from './Work/work';
 
 
 class App extends Component {
