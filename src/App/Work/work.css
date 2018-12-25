@@ -1,84 +1,67 @@
-#work{
-    height: 90px;
-  }
-  
+.project{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  max-height: 100%;
 
-h4{
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 28px;
-    letter-spacing: 0.03em;
-    text-align: left;
-    color: #9D9391;
+
 }
 
-img{
-    width: 100%;
-    margin-top: 20px;
-}
 
-.outline-section-work{
-    border: 2px solid #635F5F;
-    padding: 20px;
-    margin-top: 10px;
-    position: relative;
-  }
-  
-
-  .outer-rectangle-work{
-    background: rgba(244, 240, 237, 0.884);
-    width:92%;
-    height: 95%;
-    margin:  0 auto;
-    padding: 40px;
-    margin-top: 20px;
-    /* position: relative; */
-
-  
-  }
-  
-  .inner-work{
-    background: rgb(255, 255, 255);
-    width: 85%;
-    height: 85%;
-    margin: 0 auto;
-    padding: 75px;
-    margin-top: 20px;
-
-  
-    position: relative;
-    /* top: 7%; */
-  }
-
-  #myWork p {
-    font-family: Roboto Condensed;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 11px;
-    letter-spacing: 0.03em;
-    margin-top: 20px;
-    color: #9D9391;
-  }
-
-  button {
-
-    width: 100px;
-    height: 20px;
-
-
+.project button{
 background: #91867C;
 mix-blend-mode: normal;
+vertical-align: bottom;
+width: 250px;
+height: 42px;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-
-
-font-family: Montserrat;
+margin-top: 40px;
+}
+.project p {
+  font-family: Roboto Condensed;
 font-style: normal;
 font-weight: normal;
-line-height: normal;
-font-size: 12px;
-text-align: center;
+line-height: 25px;
+font-size: 	1rem;
+letter-spacing: 0.03em;
 
-color: #FFFFFF;
-  }
+color: #9D9391;
+
+padding: 10px;
+margin-top: 40px;
+}
+
+.project-text{
+  width: 50%;
+  padding: 20px;
+}
+
+
+.project-img{
+
+  width: 50%;
+  overflow: hidden;
+}
+
+.project-img img{
+  width: 100%;
+max-width: 450px;
+
+
+}
+
+h4{
+  font-family: Roboto Slab;
+font-style: normal;
+font-weight: normal;
+line-height: 49px;
+font-size: 3.5rem;
+letter-spacing: 0.03em;
+
+color: #9D9391;
+
+text-align: left;
+
+padding: 10px;
+}

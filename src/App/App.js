@@ -11,10 +11,6 @@ class App extends Component {
     return (
 
       <section className='main'>
-
-     
-
-     
        <MyName/>
        <AboutMe/>
        <Work/>
