@@ -1,5 +1,8 @@
 
-
+#home{
+    margin-top: 20px;
+    height:90px;
+}
 
 header {
     position: relative;
@@ -9,6 +12,17 @@ header {
     margin-top: 100px;
     border-radius: 50%;
     background: rgba(233, 217, 212, 0.78);
+
+
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+    
+    width: 50vh;
+	height: 50vh;
+	margin: 3px;
 
     }
     

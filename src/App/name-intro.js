@@ -8,7 +8,7 @@ export function MyName (){
         <div id= 'home'>
 
         </div>
-        <section  className='outline-section'>
+        <section className='outline-section'>
         <header className= 'header-section'>
             <h1>Janet Leon</h1>
             <h2>{webDev}</h2>
