@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import MyName from './name-intro';
-import DropdownMenu from './2- common/dropdown-menu';
+import MyName from './name-intro/name-intro';
+// import DropdownMenu from './2- common/dropdown-menu';
 import AboutMe from './About';
 import Work from './Work/work';
 
@@ -11,7 +11,7 @@ class App extends Component {
     return (
 
       <section className='main'>
-      <DropdownMenu/>
+
      
       <section className="App">
      
