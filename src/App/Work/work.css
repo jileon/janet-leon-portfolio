@@ -1,12 +1,13 @@
 .work-section{
   height: 100vh;
+  margin-top: 30px;
+
 }
 
 .project{
   width: 100%;
   display: flex;
   flex-direction: row;
-  border: 1px solid blue;
   height: 100%;
   margin-bottom: 20px;
 }
@@ -37,19 +38,14 @@ color: #FFFFFF;
 
 .project-text{
   width: 100%;
-  overflow: scroll;
   align-self: center;
-  margin-top: 30px;
-  max-height: 350px;
-  
- 
 }
-
 
 
 .project-header{
   width: 50%;
 height: 100%;
+
 }
 
 
@@ -84,25 +80,26 @@ font-size: 	1rem;
 letter-spacing: 0.03em;
 text-align: center;
 color: #9D9391;
-
-padding: 10px;
+padding: 0px 20px;
+margin: 80px 0px 0px 0px;
 }
 
 .project-img{
 
   width: 50%;
-  max-width: 450px;
+  max-width: 650px;
   /* overflow: hidden; */
   display: flex;
   align-items: center;
 justify-content: center;
-/* animation: _animate-fade-in-right 2s; */
+padding-left: 10px;
 }
 
 .project-img img{
   height: 90%; 
   max-width: 100%;
 object-fit: contain;
+
 
 
 }
@@ -125,38 +122,27 @@ padding: 12px;
 
 
 
-
-@-webkit-keyframes _animate-fade-in-right {
+@-webkit-keyframes _animate-fade-in {
   0% {
     opacity: 0;
-    visibility: hidden;
-    -webkit-transform: translate(50%, 0%);
-    transform: translate(50%, 0%); }
-  80% {
-    visibility: visible;
-    -webkit-transform: translate(-5%, 0%);
-    transform: translate(-5%, 0%); }
+    visibility: hidden; }
   100% {
     opacity: 1;
-    -webkit-transform: translate(0%, 0%);
-    transform: translate(0%, 0%); } }
+    visibility: visible; } }
 
-@keyframes _animate-fade-in-right {
+@keyframes _animate-fade-in {
   0% {
     opacity: 0;
-    visibility: hidden;
-    -webkit-transform: translate(50%, 0%);
-    transform: translate(50%, 0%); }
-  80% {
-    visibility: visible;
-    -webkit-transform: translate(-5%, 0%);
-    transform: translate(-5%, 0%); }
+    visibility: hidden; }
   100% {
     opacity: 1;
-    -webkit-transform: translate(0%, 0%);
-    transform: translate(0%, 0%); } }
+    visibility: visible; } }
 
-._animate-fade-in-right {
-  -webkit-animation: _animate-fade-in-right 0.8s cubic-bezier(0.86, 0, 0.07, 1) forwards;
-  animation: _animate-fade-in-right 0.8s cubic-bezier(0.86, 0, 0.07, 1) forwards;
+._animate-fade-in {
+  -webkit-animation: _animate-fade-in 0.8s cubic-bezier(0.86, 0, 0.07, 1) forwards;
+  animation: _animate-fade-in 0.8s cubic-bezier(0.86, 0, 0.07, 1) forwards;
   opacity: 0; }
+
+.header3{
+  visibility: hidden;
+}

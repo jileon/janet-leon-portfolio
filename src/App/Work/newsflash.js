@@ -37,7 +37,8 @@ export default class  Newsflash extends React.Component {
     </div>
 
 
-    <div data-aos="fade-left" className= 'project-img'>
+    <div data-aos="fade-left"  data-aos-offset="300"
+     data-aos-easing="ease-in-sine" className= 'project-img'>
     <img
       src={require("../images/newsflash.png")}
       alt="newsflash project"

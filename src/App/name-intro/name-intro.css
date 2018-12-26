@@ -5,7 +5,7 @@
 }
 
 header {
-    background: rgba(233, 217, 212, 0.78);
+    background: #e9d9d4e3;
     border-radius: 50%;
     width: 50vh;
     height: 50vh;
@@ -22,12 +22,11 @@ header {
         font-family: Petit Formal Script;
         font-style: normal;
         font-weight: normal;
-        line-height: 52px;
-        font-size: 48px;
+        font-size: 50px;
         text-align: center;
         letter-spacing: -0.07em;
-        color: #FFFFFF;
-        transform: rotate(-8deg); 
+        color: #ffffff;
+        text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.42);
     }
     
     header h2 {
