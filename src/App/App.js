@@ -17,6 +17,7 @@ class App extends Component {
       <Navbar/>
        <MyName/>
        <AboutMe/>
+       <Spacer/>
        <Work/>
        <Spacer/>
       <ContactFooter/>

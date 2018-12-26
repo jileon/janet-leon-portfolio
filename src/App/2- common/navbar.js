@@ -5,9 +5,9 @@ export default class Navbar extends React.Component{
         return(
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Work</li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#aboutme">About</a></li>
+                    <li><a href="#work">Work</a></li>
                     <li>Contact</li>
                     <li>Resume</li>
                 </ul>

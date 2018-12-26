@@ -7,7 +7,7 @@ export default function AboutMe() {
             <div id='about'>
 
             </div>
-            <section className='outline-section about-section'>
+            <section id='aboutme' className='outline-section about-section'>
                 <section className='outer-rectangle'>
                     <h3>About</h3>
                     <section className='inner-rectangle'>

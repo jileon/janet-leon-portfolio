@@ -1,6 +1,7 @@
 .contact-ftr{
-  height: 525px;
-  background: white;
+  /* height: 525px; */
+  background: rgba(202, 198, 198, 0.726);
+  height: 80vh;
   width: 95vw;
   margin: 0 auto;
 }

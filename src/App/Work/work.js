@@ -5,13 +5,12 @@ import './work.css';
 
 export default function Work() {
 	return (
-		<React.Fragment>
-			<div id="work" />
-			<section className="outline-section ">
+	<section className="work-view">
+			<div id="work-section" />
+			<section  id="work"  className="outline-section">
 	
 
 <Project
-class="outer-rectangle work-section"
 number='01'
 name='Newsflash'
 URI="https://newsflashapp.herokuapp.com/"
@@ -77,6 +76,6 @@ magna, in volutpat nibh vehicula et.'
 
 
 			</section>
-		</React.Fragment>
+			</section>
 	);
 }
