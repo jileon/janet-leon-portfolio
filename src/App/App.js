@@ -14,8 +14,9 @@ class App extends Component {
     return (
 
       <section className='main'>
-      <Navbar/>
+  
        <MyName/>
+       <Navbar/>
        <AboutMe/>
        <Spacer/>
        <Work/>

@@ -1,8 +1,17 @@
-nav ul{
+
+.navbar{
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background-color: rgba(133, 133, 133, 0.568);
+  height: 30px;
+}
+.navbar ul{
   text-align: right;
   margin-right: 25px;
+  
 }
-nav ul li {
+.navbar ul li {
   display: inline;
   margin: 15px;
 }

@@ -4,9 +4,7 @@ import './about.css'
 export default function AboutMe() {
     return (
         <React.Fragment>
-            <div id='about'>
-
-            </div>
+         <div id='about'></div>
             <section id='aboutme' className='outline-section about-section'>
                 <section className='outer-rectangle'>
                     <h3>About</h3>

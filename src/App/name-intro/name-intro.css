@@ -1,23 +1,41 @@
 
 #home{
-    /* margin-top: 20px; */
-    /* height:90px; */
+    height: 100vh;
 }
 
-header {
-    background: #e9d9d4e3;
-    border-radius: 50%;
-    width: 60vh;
-    height: 60vh;
-    margin: 0 auto;
 
+.second-navbar{
+    position: relative;
+    top: 5%;
+
+}
+
+  .second-navbar ul{
+    text-align: right;
+    margin-right: 45px;
+    
+  }
+  .second-navbar ul li {
+    display: inline;
+    margin: 15px;
+  }
+
+
+  .name-intro{
+    background: #e9d9d4e3;
+    border-radius: 100%;
+    margin: 0 auto; 
+    width: 40vw;
+    height: 60vh; 
+
+position: relative;
+top: 10%;
     display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	flex-direction: column;
-    }
-    
+    flex-direction: column;
+  }  
     header h1{
         font-family: Petit Formal Script;
         font-style: normal;
