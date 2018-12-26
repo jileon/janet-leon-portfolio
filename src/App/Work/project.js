@@ -1,5 +1,4 @@
 import React from 'react';
-import Newsflash from './newsflash';
 import './work.css';
 
 export default function Project(props) {

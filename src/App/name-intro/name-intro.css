@@ -7,8 +7,8 @@
 header {
     background: #e9d9d4e3;
     border-radius: 50%;
-    width: 50vh;
-    height: 50vh;
+    width: 60vh;
+    height: 60vh;
     margin: 0 auto;
 
     display: flex;
@@ -22,25 +22,26 @@ header {
         font-family: Petit Formal Script;
         font-style: normal;
         font-weight: normal;
-        font-size: 50px;
+        font-size: 5rem;
         text-align: center;
         letter-spacing: -0.07em;
         color: #ffffff;
         text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.42);
+        transform: rotate(-5deg);
+        width: 70%;
     }
     
     header h2 {
         padding-top: 20px;
-
-        font-family: Prestige Elite Std;
+        font-family: Roboto Condensed;
         font-style: normal;
         font-weight: bold;
         line-height: 23px;
-        font-size: 23px;
+        font-size: 3rem;
         text-align: center;
         letter-spacing: -0.05em;
-        
         color: #494646;
+        margin-top: 50px;
         
     }
 

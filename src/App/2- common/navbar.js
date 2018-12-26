@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './navbar.css'
 export default class Navbar extends React.Component{
     render(){
         return(
@@ -8,6 +8,8 @@ export default class Navbar extends React.Component{
                     <li>Home</li>
                     <li>About</li>
                     <li>Work</li>
+                    <li>Contact</li>
+                    <li>Resume</li>
                 </ul>
             </nav>
         )
