@@ -1,9 +1,9 @@
 
 .outline-section{
-  border: 2px solid #635F5F;
+  /* border: 2px solid #635F5F; */
   min-height: 100%; 
   height: 100%;
-  width: 95vw;
+  width: 90vw;
   margin: 0 auto;
     display: flex;
     /* align-items: center; */
@@ -14,9 +14,9 @@
 }
 
 .outer-rectangle{
-  background: rgba(218, 216, 215, 0.856);
+  background: rgb(218, 216, 215);
   padding: 5px;
-  width: 90%;
+  width: 100%;
   height: 95%;
   margin: 0 auto;
   display: flex;

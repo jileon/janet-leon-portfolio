@@ -3,15 +3,22 @@
   position: sticky;
   top: 0;
   z-index: 5;
-  background-color: rgba(133, 133, 133, 0.568);
-  height: 30px;
+  background-color: rgba(133, 133, 133, 0.774);
+  height: 50px;
 }
 .navbar ul{
   text-align: right;
   margin-right: 25px;
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
   
 }
 .navbar ul li {
   display: inline;
   margin: 15px;
+}
+
+.navbar ul li a {
+  color: rgb(255, 255, 255);
 }
