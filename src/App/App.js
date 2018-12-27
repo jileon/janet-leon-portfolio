@@ -28,10 +28,12 @@ class App extends Component {
   handleScroll = (e) => {
     if(window.pageYOffset > 350){
       this.setState({visible: true})
+
   
     } 
     if(window.pageYOffset < 350){
       this.setState({visible: false})
+
   
     } 
       };
@@ -41,14 +43,10 @@ class App extends Component {
     return (
 <>
 
-      <section onScroll= {()=>console.log('hello')} className='main'>
+      <section className='main'>
       <Navbar visible={this.state.visible}/>
        <MyName />
-
-    
        <AboutMe />
-
-       <Spacer/>
        <Work/>
        <Spacer/>
       <ContactFooter/>

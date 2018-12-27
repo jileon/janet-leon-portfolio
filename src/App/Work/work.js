@@ -5,9 +5,11 @@ import './work.css';
 
 export default function Work() {
 	return (
+		<>
+		<div id="work" />
 	<section className="work-view">
-			<div id="work-section" />
-			<section  id="work"  className="outline-section">
+
+			<section  id="work-section"  className="outline-section">
 	
 
 <Project
@@ -77,5 +79,7 @@ magna, in volutpat nibh vehicula et.'
 
 			</section>
 			</section>
+			</>
 	);
+
 }

@@ -7,10 +7,6 @@ export default class Navbar extends React.Component {
 		const { visible }= this.props;
 		return (
 			<nav
-				// data-aos="fade-down"
-				// data-aos-easing="ease-in-out"
-				// data-aos-duration="1000"
-				// data-aos-delay="100"
 				id="navbar"
 				className={visible ? 'slideIn' : 'slideOut'}
 			>
