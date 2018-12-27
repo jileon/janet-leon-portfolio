@@ -17,6 +17,9 @@ export default function AboutMe(props) {
 
                             <p className='description'>I’m a web developer and I like to build things on the internet.
                     I’m passionate about all things web and digital creativity.</p>
+           
+						<a href={require('../Files/JANET_LEON_Resume.pdf')} download>Resume</a>
+			
                         </section>
                     </section>
                 </section>
