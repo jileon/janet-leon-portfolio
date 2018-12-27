@@ -12,19 +12,11 @@ import TrackVisibility from 'react-on-screen';
 AOS.init();
 class App extends Component {
 
-  state = {
-    navbar: 'navbar'
+  constructor(props) {
+    super(props)
+    this.state = { visible: false }
   }
   componentDidMount(){
-    // const about = document.getElementById("about");
-    // console.log(about, about.offsetTop)
-
-    // const work = document.getElementById("work");
-    // console.log(work, work.offsetTop)
-
-    // const home = document.getElementById("home");
-    // console.log(home, home.offsetTop)
-
       window.addEventListener('scroll', this.handleScroll);
        
   }
@@ -33,24 +25,28 @@ class App extends Component {
     window.removeEventListener('scroll', this.handleScroll);
   }
 
+
   handleScroll = (e) => {
-    if(window.pageYOffset < 320){
-      // console.log(window.pageYOffset)
-      this.setState({navbar:'navbar-hide'})
-    } else {
-      this.setState({navbar:'navbar'})
-    }
+    if(window.pageYOffset > 350){
+      this.setState({visible: true})
+  
+    } 
+    if(window.pageYOffset < 350){
+      this.setState({visible: false})
+  
+    } 
       };
   
 
       render() {
     return (
+<>
 
       <section onScroll= {()=>console.log('hello')} className='main'>
-  
-       <MyName/>
-       <Navbar class={this.state.navbar}/>
+      <Navbar visible={this.state.visible}/>
+       <MyName />
 
+    
        <AboutMe />
 
        <Spacer/>
@@ -59,7 +55,7 @@ class App extends Component {
       <ContactFooter/>
 
       </section>
-
+</>
     );
   }
 }
