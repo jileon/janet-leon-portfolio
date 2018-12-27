@@ -2,8 +2,6 @@ import React from 'react';
 import './about.css'
 import Navbar from '../2- common/navbar'
 export default function AboutMe(props) {
-    console.log(props)
-
     return (
         <React.Fragment>
          <div id='about'>
