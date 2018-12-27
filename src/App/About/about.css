@@ -1,6 +1,7 @@
-#aboutMe{
-    position: relative;
-    top: 10%;
+#aboutme{
+    /* position: relative;
+    top: 15%; */
+/* margin-top:40px; */
   }
 
 
@@ -45,4 +46,5 @@
 
   .about-section{
     height: 100vh;
+    /* margin-top: -48px; */
   }

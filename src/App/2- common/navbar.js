@@ -3,7 +3,7 @@ import './navbar.css';
 export default class Navbar extends React.Component {
 	render() {
 		return (
-			<nav data-aos="fade" data-aos-easing="ease-in-out" data-aos-duration="1000" className="navbar">
+			<nav data-aos="fade-down" data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="100"className={this.props.class}>
 				<ul>
 					<li>
 						<a href="#home">Home</a>

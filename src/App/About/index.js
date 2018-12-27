@@ -1,10 +1,15 @@
 import React from 'react';
 import './about.css'
+import Navbar from '../2- common/navbar'
+export default function AboutMe(props) {
+    console.log(props)
 
-export default function AboutMe() {
     return (
         <React.Fragment>
-         <div id='about'></div>
+         <div id='about'>
+    
+         </div>
+       
             <section id='aboutme' className='outline-section about-section'>
                 <section className='outer-rectangle'>
                     <h3>About</h3>
