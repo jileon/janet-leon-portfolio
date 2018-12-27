@@ -5,7 +5,7 @@ export default function Project(props) {
 	return (
 	
 				<section className='outer-rectangle work-section'>
-					<h3 className={props.headerClass}>Work</h3>
+					<h3 className={props.headerClass}>Projects</h3>
 					<section className="inner-rectangle">
 					
 
