@@ -34,22 +34,12 @@ class App extends Component {
   }
 
   handleScroll = (e) => {
-//  const home = document.getElementById("home");
-//     console.log(home, home.offsetTop)
-
-//     console.log(window.pageYOffset)
-//        const about = document.getElementById("about");
-//     console.log(about, about.offsetTop)
-
     if(window.pageYOffset < 320){
-      console.log(window.pageYOffset)
+      // console.log(window.pageYOffset)
       this.setState({navbar:'navbar-hide'})
     } else {
       this.setState({navbar:'navbar'})
     }
-
-
-
       };
   
 
