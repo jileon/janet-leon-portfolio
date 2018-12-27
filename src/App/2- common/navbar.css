@@ -1,5 +1,5 @@
 #navbar {
-  transform: translateX(-150px);
+  transform: translateY(-150px);
   transition: transform 400ms ease-in;
   
   position: fixed;
@@ -13,11 +13,11 @@
 }
 
 #navbar.slideIn {
-  transform: translateX(0);
+  transform: translateY(0);
 }
 
 #navbar.slideOut {
-  transform: translateX(-100%);
+  transform: translateY(-100%);
 }
 
 
