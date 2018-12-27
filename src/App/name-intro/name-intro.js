@@ -1,6 +1,6 @@
 import React from 'react';
 import './name-intro.css';
-import Navbar from '../2- common/navbar';
+
 export function MyName (){
     const webDev = '<webdev/>';
     return (
