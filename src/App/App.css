@@ -1,63 +1,56 @@
-
-.outline-section{
+.outline-section {
   /* border: 2px solid #635F5F; */
-  min-height: 100%; 
-  height: 100%;
   width: 85vw;
-
   margin: 0 auto;
-    display: flex;
-    align-items: center;
-  flex-direction: column; 
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   align-content: center;
   justify-content: center;
-
 }
 
-.outer-rectangle{
+.outer-rectangle {
   background: rgba(218, 216, 215, 0.849);
   padding: 0px 0px 20px 0px;
   width: 100%;
-  height: 85%;
+  height: 80%;
   margin: 0 auto;
   display: flex;
-flex-direction: column; 
- align-items: center;
- align-content: center;
- justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
 }
 
-.inner-rectangle{
-  background: #FFFFFF;
+.inner-rectangle {
+  background: #ffffff;
   margin: 0 auto;
   /* width: 90%;
   height: 85%; */
 
-
   width: 100%;
   height: 85%;
-
 }
 
-
-h3{
+h3 {
   font-family: Roboto Condensed;
 
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
   letter-spacing: 0.03em;
-color: rgb(110, 103, 102);
-width: 95%;
-text-align: left;
-position: relative;
-top: -15px;
-/*
+  color: rgb(110, 103, 102);
+  width: 95%;
+  text-align: left;
+  position: relative;
+  top: -15px;
+  /*
 align-self: flex-end;
 justify-self: flex-end; */
 }
 
-
- #about, #work{
+#about,
+#work {
   height: 70px;
 }
