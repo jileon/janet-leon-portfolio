@@ -11,7 +11,7 @@ export default function ContactFooter() {
           <div className="contact-info">
             <h3>Info</h3>
             <h4>Contact</h4>
-            <p>ajleon00@gmail.com / 213-321-5042</p>
+            <p>ajleon00@gmail.com / 213-375-8647</p>
           </div>
         </div>
         <div className="connect">

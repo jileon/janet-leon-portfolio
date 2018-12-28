@@ -57,16 +57,33 @@
   align-content: center;
   justify-content: center;
   align-content: center;
+  background: none;
   /* background: #e9d9d4; */
 }
 
 .connect-buttons button a {
   margin: 0px 15px;
   font-size: 20px;
+  color: rgb(110, 103, 102);
+  text-decoration: none;
+}
+
+.connect-buttons button:hover {
+  background: #fff;
+  background: rgba(110, 103, 102, 0.623);
+  border: 1px solid rgba(110, 103, 102, 0.623);
+}
+
+.connect-buttons button:hover a {
+  color: #fff;
+}
+
+.connect-buttons button:hover .react-icons {
+  color: #fff;
 }
 
 .react-icons {
-  color: pink;
+  color: rgba(110, 103, 102, 0.801);
   font-size: 20px;
 }
 
