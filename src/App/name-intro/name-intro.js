@@ -15,7 +15,7 @@ export function MyName (){
                 </ul>
             </nav>
             <div className='name-intro'>
-            <h1>Janet Leon</h1>
+            <h1>Janet <br/>Leon</h1>
             <h2>{webDev}</h2>
             </div>
         </header>

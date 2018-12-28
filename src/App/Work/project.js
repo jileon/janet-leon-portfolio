@@ -18,7 +18,8 @@ export default function Project(props) {
 <p >
 {props.Text}
 </p>
-<button type="button">
+<button data-aos="fade"  data-aos-offset="200"
+ data-aos-easing="ease-in-sine"  type="button">
   <a
   href={props.URI}
   target="_blank"
@@ -27,7 +28,8 @@ export default function Project(props) {
   Visit Site
   </a>
   </button>
-  <button type="button">
+  <button  data-aos="fade"  data-aos-offset="200"
+ data-aos-easing="ease-in-sine" type="button">
   <a
   href={props.projectURI}
   target="_blank"
