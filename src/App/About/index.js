@@ -16,10 +16,13 @@ export default function AboutMe(props) {
                 <br />
                 <p className="bio-paragraph">
                   <span className="title"> Full Stack Web Developer</span>
-                  <br />
-                  UCLA Alum <br />
-                  Thinkful Graduate <br /> Aerial Hobbyist <br /> Coffee Lover
                 </p>
+                <ul>
+                  <li> UCLA Alum </li>
+                  <li> Thinkful Graduate</li>
+                  <li> Aerial Hobbyist </li>
+                  <li> Coffee Lover</li>
+                </ul>
               </div>
               <div className="about-description">
                 <p className="bio-paragraph">
