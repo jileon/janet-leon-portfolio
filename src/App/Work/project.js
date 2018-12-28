@@ -10,7 +10,8 @@ export default function Project(props) {
           <div className="project-info">
             <div className="project-header">
               <h4>
-                {props.number} {props.name}
+                {props.number}
+                <span className="name-span"> {props.name}</span>
               </h4>
               {/* <h4></h4> */}
             </div>

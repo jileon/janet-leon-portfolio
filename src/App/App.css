@@ -19,8 +19,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  align-content: center;
-  justify-content: center;
+  /* align-content: center; */
 }
 
 .inner-rectangle {
@@ -30,7 +29,7 @@
   height: 85%; */
 
   width: 100%;
-  height: 85%;
+  height: 90%;
 }
 
 h3 {
@@ -38,13 +37,13 @@ h3 {
 
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 1.5rem;
   letter-spacing: 0.03em;
   color: rgb(110, 103, 102);
   width: 95%;
   text-align: left;
-  position: relative;
-  top: -15px;
+  padding: 10px 10px;
+
   /*
 align-self: flex-end;
 justify-self: flex-end; */
