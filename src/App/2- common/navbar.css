@@ -51,3 +51,11 @@
 #navbar ul li a:hover {
   border-bottom: 2px solid #fff;
 }
+
+@media only screen and (max-width: 360px) {
+  #navbar ul {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-right: 0px;
+  }
+}

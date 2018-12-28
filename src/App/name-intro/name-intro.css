@@ -111,4 +111,15 @@ header h2 {
     font-size: 1.5rem;
     padding-top: 0px;
   }
+
+  .second-navbar ul {
+    text-align: center;
+    margin-right: 0px;
+    font-size: 1.225rem;
+  }
+
+  .second-navbar ul li {
+    margin: 8px;
+    padding: 7px;
+  }
 }
