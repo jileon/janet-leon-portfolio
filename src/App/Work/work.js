@@ -14,11 +14,22 @@ export default function Work() {
             URI="https://newsflashapp.herokuapp.com/"
             gitHubURI="https://github.com/jileon/react-newsFlash-client"
             image={require('../images/newsflash.png')}
-            Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Pellentesque congue, enim et ornare facilisis, nisl arcu dignissim
-quam, ut dictum purus mi vitae felis. Curabitur blandit rhoncus
-nibh, eu ullamcorper tortor gravida in. Nunc condimentum ipsum
-magna, in volutpat nibh vehicula et."
+            Text={
+              <p>
+                News Flash is an app designed to get your news and save articles
+                all in one place. Multiple sources are searched using the api
+                from https://newsapi.org/. Both front and back ends are fully
+                built and designed by me. <br />{' '}
+                <span className="tech-stack">
+                  <strong>Frontend: </strong> React, Redux, HTML, CSS
+                  <br />
+                  <span className="back-end">
+                    <strong>Backend: </strong> Node, Express, MongoDB, Mongoose,
+                    mLab, JWT, Passport, Bcrypt
+                  </span>
+                </span>
+              </p>
+            }
           />
 
           <Project
@@ -28,11 +39,25 @@ magna, in volutpat nibh vehicula et."
             URI="https://learn-spanish-app.herokuapp.com/"
             gitHubURI="https://github.com/jileon/learning-Spanish-react-client"
             image={require('../images/spanish-desk.png')}
-            Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Pellentesque congue, enim et ornare facilisis, nisl arcu dignissim
-quam, ut dictum purus mi vitae felis. Curabitur blandit rhoncus
-nibh, eu ullamcorper tortor gravida in. Nunc condimentum ipsum
-magna, in volutpat nibh vehicula et."
+            Text={
+              <p>
+                This is an application teaches users simple spanish vocabulary.
+                A spaced repetition algorithm keeps track of how many times a
+                word is guessed correctly, or incorrectly. The more incorrect
+                words a user sees, the more frequent that word pops up. This
+                project is a collaboration between myself and developer Aaron
+                Whitehead.
+                <br />{' '}
+                <span className="tech-stack">
+                  <strong>Frontend: </strong> React, Redux, HTML, CSS
+                  <br />
+                  <span className="back-end">
+                    <strong>Backend: </strong> Node, Express, MongoDB, Mongoose,
+                    mLab, JWT, Passport, Bcrypt
+                  </span>
+                </span>
+              </p>
+            }
           />
 
           <Project
@@ -44,11 +69,27 @@ magna, in volutpat nibh vehicula et."
             demo={true}
             demoURI="https://knowted.netlify.com/demo"
             gitHubURI="https://github.com/jileon/knowted-client"
-            Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Pellentesque congue, enim et ornare facilisis, nisl arcu dignissim
-quam, ut dictum purus mi vitae felis. Curabitur blandit rhoncus
-nibh, eu ullamcorper tortor gravida in. Nunc condimentum ipsum
-magna, in volutpat nibh vehicula et."
+            Text={
+              <p>
+                Knowted is a note-taking organizer that keeps track of your
+                learning resources from all over ther web. YouTube videos are
+                embedded along side a text-editor so you can take notes with a
+                video side by side. This is a collaboration with 3 other
+                developers-Timothy Chang, Chelsea Kent, and Morgan Newman. My
+                focus was mainly the frontend.
+                <br />{' '}
+                <span className="tech-stack">
+                  <strong>Frontend: </strong> React, Redux, HTML,
+                  StyledComponetns, React Beautiful DnD, React-Quill, Enzyme,
+                  Jest, Immer
+                  <br />
+                  <span className="back-end">
+                    <strong>Backend: </strong> Node, Express, PostgresSql, Knex,
+                    ElephantSql,
+                  </span>
+                </span>
+              </p>
+            }
           />
 
           <Project
@@ -58,11 +99,17 @@ magna, in volutpat nibh vehicula et."
             URI="http://jleondig.myartsonline.com/"
             image={require('../images/dig.png')}
             gitHubURI="https://github.com/jileon/dig-plantNursery"
-            Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Pellentesque congue, enim et ornare facilisis, nisl arcu dignissim
-quam, ut dictum purus mi vitae felis. Curabitur blandit rhoncus
-nibh, eu ullamcorper tortor gravida in. Nunc condimentum ipsum
-magna, in volutpat nibh vehicula et."
+            Text={
+              <p>
+                This is a simple static website build as a personal exercise.
+                The client here is a nursery that wants to advertise their
+                plants and pots. Designed and built by me.
+                <br />{' '}
+                <span className="tech-stack">
+                  <strong>Built With: </strong> HTML5, CSS3, Bootstrap
+                </span>
+              </p>
+            }
           />
 
           <Project
@@ -72,11 +119,17 @@ magna, in volutpat nibh vehicula et."
             URI="http://jleoncbc.mypressonline.com/"
             gitHubURI="https://github.com/jileon/cbc-restaurant"
             image={require('../images/cbcburrito.png')}
-            Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Pellentesque congue, enim et ornare facilisis, nisl arcu dignissim
-quam, ut dictum purus mi vitae felis. Curabitur blandit rhoncus
-nibh, eu ullamcorper tortor gravida in. Nunc condimentum ipsum
-magna, in volutpat nibh vehicula et."
+            Text={
+              <p>
+                This is a simple static website build as a personal exercise.
+                The client here is a reataurant that wants to provide their
+                contact information and menu. Designed and built by me.
+                <br />{' '}
+                <span className="tech-stack">
+                  <strong>Built With: </strong> HTML5, CSS3, Bootstrap
+                </span>
+              </p>
+            }
           />
         </section>
       </section>

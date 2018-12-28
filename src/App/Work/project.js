@@ -17,7 +17,7 @@ export default function Project(props) {
             </div>
 
             <div className="project-text">
-              <p>{props.Text}</p>
+              {props.Text}
               <button
                 data-aos="fade"
                 data-aos-offset="100"
