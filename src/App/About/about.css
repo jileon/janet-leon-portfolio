@@ -1,50 +1,66 @@
-#aboutme{
-    /* position: relative;
-    top: 15%; */
-/* margin-top:40px; */
-  }
+.aboutMe {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: 0 auto;
+}
 
+.about-name,
+.about-description {
+  width: 50%;
+  margin: 30px 0px;
+}
 
-  
-  
-  .helloThere{
-  font-family: Roboto Slab;
+.about-description h4,
+.about-name h4 {
+  font-family: Roboto Condensed;
   font-style: normal;
   font-weight: bold;
-  font-size: 12px;
-  letter-spacing: 0.03em;
-  color: #9D9391;
+  font-size: 2.65rem;
   text-align: left;
-  margin-top: 20px;
-  }
-  
-  #aboutMe h1 {
-    font-family: Roboto Condensed;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 30px;
-  font-size: 19px;
-  text-align: left;
-  letter-spacing: 0.03em;
-  color: #9D9391;
-  margin-top: 20px;
-  }
-  
-  .description{
-    font-family: Roboto condensed;
-    padding: 10px;
-  font-style: normal;
-  font-weight: bold;
-  line-height: 20px;
-  font-size: 15px;
-  letter-spacing: 0.06em;
-  text-align: left;
-  color: #9D9391;
-  margin-top: 20px;
+  letter-spacing: -0.01em;
+  color: #494646;
+  color: #c59795;
+}
 
-  }
+.about-name .bio-paragraph {
+  font-family: Roboto Condensed;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  line-height: 2em;
+  text-align: left;
+  color: #494646;
+}
 
-  .about-section{
-    height: 100vh;
-    /* margin-top: -48px; */
-  }
+.about-description .bio-paragraph {
+  font-family: Roboto Condensed;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  line-height: 2em;
+  text-align: left;
+  color: #494646;
+}
+
+.about-description .bio-tools {
+  font-family: Roboto Condensed;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+  line-height: 2em;
+  text-align: left;
+  color: #494646;
+}
+
+.title {
+  border-bottom: 1px solid rgba(196, 192, 190, 0.897);
+  display: block;
+  width: 70%;
+}
+
+.bio-tools strong {
+  font-weight: bold;
+}
+
+.tl-blt {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
