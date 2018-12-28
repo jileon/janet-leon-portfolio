@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaDownload } from 'react-icons/fa';
+import { FaDownload, FaLinkedinIn, FaGithub, FaTwitter } from 'react-icons/fa';
 import { IconContext } from 'react-icons';
 import './contact-ftr.css';
 
@@ -24,8 +24,9 @@ export default function ContactFooter() {
               >
                 Github
               </a>
+
               <IconContext.Provider value={{ className: 'react-icons' }}>
-                <FaDownload />
+                <FaGithub />
               </IconContext.Provider>
             </button>
 
@@ -37,6 +38,9 @@ export default function ContactFooter() {
               >
                 Twitter
               </a>
+              <IconContext.Provider value={{ className: 'react-icons' }}>
+                <FaTwitter />
+              </IconContext.Provider>
             </button>
 
             <button type="button">
@@ -47,12 +51,18 @@ export default function ContactFooter() {
               >
                 LinkedIn
               </a>
+              <IconContext.Provider value={{ className: 'react-icons' }}>
+                <FaLinkedinIn />
+              </IconContext.Provider>
             </button>
 
             <button type="button">
               <a href={require('../Files/JANET_LEON_Resume.pdf')} download>
                 Resume
               </a>
+              <IconContext.Provider value={{ className: 'react-icons' }}>
+                <FaDownload />
+              </IconContext.Provider>
             </button>
           </div>
         </div>
