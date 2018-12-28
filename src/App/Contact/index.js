@@ -16,54 +16,53 @@ export default function ContactFooter() {
         </div>
         <div className="connect">
           <div className="connect-buttons">
-            <button type="button">
-              <a
-                href="https://github.com/jileon/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+            <a
+              href="https://github.com/jileon/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p>
                 Github
-              </a>
+                <IconContext.Provider value={{ className: 'react-icons' }}>
+                  <FaGithub />
+                </IconContext.Provider>
+              </p>
+            </a>
 
-              <IconContext.Provider value={{ className: 'react-icons' }}>
-                <FaGithub />
-              </IconContext.Provider>
-            </button>
-
-            <button type="button">
-              <a
-                href="https://twitter.com/iamjanetleon/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+            <a
+              href="https://twitter.com/iamjanetleon/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p>
                 Twitter
-              </a>
-              <IconContext.Provider value={{ className: 'react-icons' }}>
-                <FaTwitter />
-              </IconContext.Provider>
-            </button>
+                <IconContext.Provider value={{ className: 'react-icons' }}>
+                  <FaTwitter />
+                </IconContext.Provider>
+              </p>
+            </a>
 
-            <button type="button">
-              <a
-                href="https://www.linkedin.com/in/janetleon/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+            <a
+              href="https://www.linkedin.com/in/janetleon/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p>
                 LinkedIn
-              </a>
-              <IconContext.Provider value={{ className: 'react-icons' }}>
-                <FaLinkedinIn />
-              </IconContext.Provider>
-            </button>
+                <IconContext.Provider value={{ className: 'react-icons' }}>
+                  <FaLinkedinIn />
+                </IconContext.Provider>
+              </p>
+            </a>
 
-            <button type="button">
-              <a href={require('../Files/JANET_LEON_Resume.pdf')} download>
+            <a href={require('../Files/JANET_LEON_Resume.pdf')} download>
+              <p>
                 Resume
-              </a>
-              <IconContext.Provider value={{ className: 'react-icons' }}>
-                <FaDownload />
-              </IconContext.Provider>
-            </button>
+                <IconContext.Provider value={{ className: 'react-icons' }}>
+                  <FaDownload />
+                </IconContext.Provider>
+              </p>
+            </a>
           </div>
         </div>
       </section>

@@ -12,6 +12,7 @@ export default function Work() {
             number="01"
             name="Newsflash"
             URI="https://newsflashapp.herokuapp.com/"
+            gitHubURI="https://github.com/jileon/react-newsFlash-client"
             image={require('../images/newsflash.png')}
             Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 Pellentesque congue, enim et ornare facilisis, nisl arcu dignissim
@@ -25,6 +26,7 @@ magna, in volutpat nibh vehicula et."
             number="02"
             name="Learning Spanish"
             URI="https://learn-spanish-app.herokuapp.com/"
+            gitHubURI="https://github.com/jileon/learning-Spanish-react-client"
             image={require('../images/spanish-desk.png')}
             Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 Pellentesque congue, enim et ornare facilisis, nisl arcu dignissim
@@ -39,6 +41,9 @@ magna, in volutpat nibh vehicula et."
             name="Knowted"
             URI="https://knowted.netlify.com/"
             image={require('../images/knowted.gif')}
+            demo={true}
+            demoURI="https://knowted.netlify.com/demo"
+            gitHubURI="https://github.com/jileon/knowted-client"
             Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 Pellentesque congue, enim et ornare facilisis, nisl arcu dignissim
 quam, ut dictum purus mi vitae felis. Curabitur blandit rhoncus
@@ -52,6 +57,7 @@ magna, in volutpat nibh vehicula et."
             name="Dig"
             URI="http://jleondig.myartsonline.com/"
             image={require('../images/dig.png')}
+            gitHubURI="https://github.com/jileon/dig-plantNursery"
             Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 Pellentesque congue, enim et ornare facilisis, nisl arcu dignissim
 quam, ut dictum purus mi vitae felis. Curabitur blandit rhoncus
@@ -64,6 +70,7 @@ magna, in volutpat nibh vehicula et."
             number="05"
             name="California Burrito"
             URI="http://jleoncbc.mypressonline.com/"
+            gitHubURI="https://github.com/jileon/cbc-restaurant"
             image={require('../images/cbcburrito.png')}
             Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 Pellentesque congue, enim et ornare facilisis, nisl arcu dignissim

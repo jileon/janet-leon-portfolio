@@ -1,6 +1,7 @@
 import React from 'react';
 import './work.css';
-
+import { FaGithub } from 'react-icons/fa';
+import { IconContext } from 'react-icons';
 export default function Project(props) {
   return (
     <section className="outer-rectangle work-section">
@@ -13,7 +14,6 @@ export default function Project(props) {
                 {props.number}
                 <span className="name-span"> {props.name}</span>
               </h4>
-              {/* <h4></h4> */}
             </div>
 
             <div className="project-text">
@@ -28,20 +28,23 @@ export default function Project(props) {
                   Visit Site
                 </a>
               </button>
-              <button
-                data-aos="fade"
-                data-aos-offset="100"
-                data-aos-easing="ease-in-sine"
-                type="button"
-              >
-                <a
-                  href={props.projectURI}
-                  target="_blank"
-                  rel="noopener noreferrer"
+
+              {props.demo ? (
+                <button
+                  data-aos="fade"
+                  data-aos-offset="100"
+                  data-aos-easing="ease-in-sine"
+                  type="button"
                 >
-                  Demo
-                </a>
-              </button>
+                  <a
+                    href={props.demoURI}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Demo
+                  </a>
+                </button>
+              ) : null}
             </div>
           </div>
 
@@ -54,6 +57,18 @@ export default function Project(props) {
             <img src={props.image} alt="newsflash project" />
           </div>
         </section>
+
+        <a
+          href={props.gitHubURI}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="github-link"
+        >
+          View the code
+          <IconContext.Provider value={{ className: 'react-icons' }}>
+            <FaGithub />
+          </IconContext.Provider>
+        </a>
       </section>
     </section>
   );

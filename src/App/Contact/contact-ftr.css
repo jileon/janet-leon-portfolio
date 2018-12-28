@@ -34,49 +34,52 @@
   grid-template-columns: auto auto;
   align-content: center;
   align-items: center;
-
   width: 100%;
 }
 
-.connect-buttons button {
-  border: 1px solid black;
+.connect-buttons a {
   margin-top: 10px;
-  height: 88px;
-
-  width: 90%;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  align-content: center;
-  background: none;
-
-  /* background: #e9d9d4; */
-}
-
-.connect-buttons button a {
-  margin: 0px 15px;
   font-size: 20px;
   color: rgb(110, 103, 102);
   text-decoration: none;
+  border: 2px solid rgb(110, 103, 102);
+
+  width: 90%;
+  max-width: 250px;
+  height: 88px;
+  display: block;
+  background: none;
 }
 
-.connect-buttons button:hover {
-  background: #fff;
+.connect-buttons a:hover {
+  color: #fff;
   background: rgba(110, 103, 102, 0.623);
-  border: 1px solid rgba(110, 103, 102, 0.623);
+  border: none;
 }
 
-.connect-buttons button:hover a {
+.connect-buttons a:hover p {
   color: #fff;
 }
 
-.connect-buttons button:hover .react-icons {
+.connect-buttons p {
+  vertical-align: middle;
+  position: relative;
+  font-family: Roboto Condensed;
+  font-style: normal;
+  font-weight: normal;
+  top: 30%;
+}
+
+.connect-buttons a:hover .react-icons {
   color: #fff;
 }
 
 .react-icons {
   color: rgba(110, 103, 102, 0.801);
   font-size: 20px;
+  margin: 0px 10px;
+  vertical-align: middle;
+  padding-bottom: 2px;
 }
 
 .contact h3 {
