@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { IconContext } from 'react-icons';
 import './App.css';
 import MyName from './name-intro/name-intro';
 import AOS from 'aos';

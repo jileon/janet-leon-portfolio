@@ -1,4 +1,6 @@
 import React from 'react';
+import { FaDownload } from 'react-icons/fa';
+import { IconContext } from 'react-icons';
 import './contact-ftr.css';
 
 export default function ContactFooter() {
@@ -6,7 +8,11 @@ export default function ContactFooter() {
     <>
       <section id="contact" className="contact-ftr">
         <div className="contact">
-          <h2>Intersted in working together?</h2>
+          <div className="contact-info">
+            <h3>Info</h3>
+            <h4>Contact</h4>
+            <p>ajleon00@gmail.com / 213-321-5042</p>
+          </div>
         </div>
         <div className="connect">
           <div className="connect-buttons">
@@ -18,6 +24,9 @@ export default function ContactFooter() {
               >
                 Github
               </a>
+              <IconContext.Provider value={{ className: 'react-icons' }}>
+                <FaDownload />
+              </IconContext.Provider>
             </button>
 
             <button type="button">

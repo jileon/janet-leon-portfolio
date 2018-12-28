@@ -3,6 +3,9 @@
 }
 .contact-ftr {
   background: rgba(218, 216, 215, 0.938);
+  /* background: #e9d9d4e3; */
+  /* background: yellow;
+  background: #e9d9d4; */
   padding: 0px 0px 20px 0px;
   width: 90%;
   height: 40vh;
@@ -21,7 +24,7 @@
 .contact,
 .connect {
   width: 50%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 .connect {
@@ -30,18 +33,75 @@
   flex-direction: column;
   align-content: center;
   align-items: center;
+  justify-content: center;
+  /* border: 1px solid black; */
 }
 
 .connect-buttons {
   display: grid;
   grid-template-columns: auto auto;
-  border: 1px solid black;
+  /* border: 1px solid red; */
   width: 100%;
+  align-items: center;
+  align-content: center;
+  /* justify-content: center; */
+  /* margin-top: 60px; */
 }
 
 .connect-buttons button {
   border: 1px solid black;
-  margin: 10px;
-  width: 90%;
+  margin: 10px 10px;
   height: 88px;
+  max-width: 230px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-content: center;
+  /* background: #e9d9d4; */
+}
+
+.connect-buttons button a {
+  margin: 0px 10px;
+}
+
+.react-icons {
+  color: pink;
+}
+
+.contact h3 {
+  font-size: 40px;
+  text-align: left;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.contact h4 {
+  font-family: Roboto Condensed;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 0.03em;
+  color: rgb(110, 103, 102);
+  text-align: left;
+
+  margin-top: 20px;
+}
+
+.contact p {
+  font-family: Roboto Condensed;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  color: rgb(110, 103, 102);
+  text-align: left;
+}
+
+.contact-info {
+  /* border: 1px solid blue; */
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
 }
