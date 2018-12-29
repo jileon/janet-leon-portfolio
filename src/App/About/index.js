@@ -20,6 +20,7 @@ export default function AboutMe(props) {
                 <ul>
                   <li> UCLA Alum </li>
                   <li> Thinkful Graduate</li>
+                  <br />
                   <li> Aerial Hobbyist </li>
                   <li> Coffee Lover</li>
                 </ul>

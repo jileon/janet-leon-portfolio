@@ -1,17 +1,18 @@
 .aboutMe {
   display: flex;
   flex-direction: row;
-  width: 70%;
+  width: 95%;
   height: 80vh;
   margin: 0 auto;
 }
 
 .about-name {
-  width: 25%;
+  width: 30%;
   margin-top: 10%;
+  margin-left: 5%;
 }
 .about-description {
-  width: 75%;
+  width: 60%;
   margin-left: 50px;
   margin-top: 10%;
 }
@@ -31,10 +32,24 @@
 .about-name .bio-paragraph {
   font-family: Roboto Condensed;
   letter-spacing: 1px;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   line-height: 2em;
   text-align: left;
   color: #494646;
+}
+
+.about-name ul {
+  font-family: Roboto Condensed;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+  line-height: 2em;
+  text-align: left;
+  color: #494646;
+  margin-top: 22px;
+}
+
+.about-name ul br {
+  display: none;
 }
 
 .about-description .bio-paragraph {
@@ -79,5 +94,28 @@
 
   .about-name {
     width: 100%;
+
+    margin-left: 0%;
+  }
+
+  .about-name ul li {
+    display: inline;
+    margin: 0px 10px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .about-description .bio-paragraph {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .about-description {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .about-name ul br {
+    display: inline-block;
   }
 }
