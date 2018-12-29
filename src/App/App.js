@@ -42,6 +42,7 @@ class App extends Component {
           <Work />
           <Spacer />
           <ContactFooter />
+          <p className="signature">Designed and Built by Janet Leon</p>
         </section>
       </>
     );
