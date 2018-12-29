@@ -40,6 +40,7 @@ class App extends Component {
           <AboutMe />
           <Spacer />
           <Work />
+          <Spacer />
           <ContactFooter />
         </section>
       </>
