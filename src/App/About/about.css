@@ -94,7 +94,6 @@
 
   .about-name {
     width: 100%;
-
     margin-left: 0%;
   }
 
@@ -108,14 +107,29 @@
   .about-description .bio-paragraph {
     margin-bottom: 20px;
     width: 100%;
+    font-size: 1.1rem;
   }
 
   .about-description {
     width: 100%;
     margin-left: 0px;
+    margin-bottom: 20px;
   }
 
   .about-name ul br {
     display: inline-block;
+  }
+
+  .tl-blt {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+
+  .about-description .bio-tools {
+    font-family: Roboto Condensed;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    text-align: left;
+    color: #494646;
   }
 }

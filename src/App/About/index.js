@@ -18,14 +18,44 @@ export default function AboutMe(props) {
                   <span className="title"> Full Stack Web Developer</span>
                 </p>
                 <ul>
-                  <li> UCLA Alum </li>
-                  <li> Thinkful Graduate</li>
+                  <li
+                    data-aos="fade"
+                    data-aos-offset="100"
+                    data-aos-easing="ease-in-sine"
+                    data-aos-delay="100"
+                  >
+                    {' '}
+                    UCLA Alum{' '}
+                  </li>
+                  <li
+                    data-aos="fade"
+                    data-aos-offset="100"
+                    data-aos-easing="ease-in-sine"
+                    data-aos-delay="150"
+                  >
+                    {' '}
+                    Thinkful Graduate
+                  </li>
                   <br />
-                  <li> Aerial Hobbyist </li>
-                  <li> Coffee Lover</li>
+                  <li
+                    data-aos="fade"
+                    data-aos-offset="100"
+                    data-aos-easing="ease-in-sine"
+                    data-aos-delay="200"
+                  >
+                    Aerial Hobbyist{' '}
+                  </li>
+                  <li
+                    data-aos="fade"
+                    data-aos-offset="100"
+                    data-aos-easing="ease-in-sine"
+                    data-aos-delay="250"
+                  >
+                    Coffee Lover
+                  </li>
                 </ul>
               </div>
-              <div className="about-description">
+              <div data-aos="fade-left" className="about-description">
                 <p className="bio-paragraph">
                   Hi there! I'm Janet and I'm passionate about about taking my
                   digital toolset to build beautiful web interactions.
