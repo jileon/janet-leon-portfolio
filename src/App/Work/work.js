@@ -41,12 +41,11 @@ export default function Work() {
             image={require('../images/spanish-desk.png')}
             Text={
               <p>
-                This is an application teaches users simple spanish vocabulary.
-                A spaced repetition algorithm keeps track of how many times a
-                word is guessed correctly, or incorrectly. The more incorrect
-                words a user sees, the more frequent that word pops up. This
-                project is a collaboration between myself and developer Aaron
-                Whitehead.
+                This application teaches users simple spanish vocabulary. A
+                spaced repetition algorithm keeps track of how many times a word
+                is guessed correctly, or incorrectly. The more incorrect words a
+                user guesses, the more frequent that word pops up. This project
+                is a collaboration between myself and developer Aaron Whitehead.
                 <br />{' '}
                 <span className="tech-stack">
                   <strong>Frontend: </strong> React, Redux, HTML, CSS
@@ -101,7 +100,7 @@ export default function Work() {
             gitHubURI="https://github.com/jileon/dig-plantNursery"
             Text={
               <p>
-                This is a simple static website build as a personal exercise.
+                This is a simple static website created as a personal exercise.
                 The client here is a nursery that wants to advertise their
                 plants and pots. Designed and built by me.
                 <br />{' '}
@@ -121,7 +120,7 @@ export default function Work() {
             image={require('../images/cbcburrito.png')}
             Text={
               <p>
-                This is a simple static website build as a personal exercise.
+                This is a simple static website built as a personal exercise.
                 The client here is a reataurant that wants to provide their
                 contact information and menu. Designed and built by me.
                 <br />{' '}
