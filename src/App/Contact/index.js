@@ -55,7 +55,10 @@ export default function ContactFooter() {
               </p>
             </a>
 
-            <a href={require('../Files/JANET_LEON_Resume.pdf')} download>
+            <a
+              href={require('../Files/JANET_LEON_WEB_DEV_2019_Public.pdf')}
+              download
+            >
               <p>
                 Resume
                 <IconContext.Provider value={{ className: 'react-icons' }}>
