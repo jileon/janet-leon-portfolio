@@ -45,6 +45,9 @@
   object-fit: contain;
 }
 
+.project-text {
+  text-align: center;
+}
 .project button {
   background: #91867c;
   text-align: center;
@@ -53,7 +56,8 @@
   min-width: 85px;
   height: 42px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  margin: 20px 2px;
+  margin-top: 3%;
+  text-align: center;
 }
 
 .project button a {
