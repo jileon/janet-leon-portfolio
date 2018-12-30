@@ -61,19 +61,24 @@ export default function AboutMe(props) {
                   digital toolset to build beautiful web interactions.
                 </p>
                 <br />
-                <p className="bio-tools">
-                  <span className="tl-blt">My Tool Belt</span>
-                  <br />
-                  <strong> Frontend:</strong> JavaScript, React, Redux,jQuery,
-                  HTML5, CSS3 <br />
-                  <br />
-                  <strong>Backend: </strong>Node.js, Express, PostgreSQL,
-                  MongoDB, Mocha & Chai, Passport, REST APIs v3
-                  <br /> <br />
-                  <strong>Other Tools: </strong>
-                  <br /> Git, GitHub, Chrome Dev Tools, Heroku, Travis CI,
-                  pgAdmin4, Robo 3T <br />
-                </p>
+                <div className="bio-tools">
+                  <p>
+                    <span className="tl-blt">My Tool Belt</span>
+                  </p>
+                  <p>
+                    <strong> Frontend: </strong> <br />
+                    JavaScript, React, Redux,jQuery, HTML5, CSS3 <br />
+                  </p>
+                  <p>
+                    <strong>Backend: </strong>Node.js, Express, PostgreSQL,
+                    MongoDB, Mocha & Chai, Passport, REST APIs v3
+                  </p>
+                  <p>
+                    <strong>Other Tools: </strong>
+                    <br /> Git, GitHub, Chrome Dev Tools, Heroku, Travis CI,
+                    pgAdmin4, Robo 3T <br />
+                  </p>
+                </div>
               </div>
             </section>
           </section>
