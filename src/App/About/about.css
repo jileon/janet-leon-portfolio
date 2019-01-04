@@ -9,13 +9,13 @@
 
 .about-name {
   width: 30%;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: 5%;
 }
 .about-description {
   width: 60%;
   margin-left: 50px;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .about-description h4,
@@ -55,7 +55,7 @@
 
 .about-description .bio-paragraph {
   font-family: Roboto Condensed;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   font-size: 1.2rem;
   line-height: 2em;
   text-align: left;
@@ -88,6 +88,12 @@
 .tl-blt {
   font-weight: bold;
   font-size: 1.5rem;
+}
+
+.bio-paragraph-about {
+  border-bottom: 1px solid rgba(196, 192, 190, 0.897);
+  display: block;
+  width: 90%;
 }
 
 @media only screen and (max-width: 660px) {
