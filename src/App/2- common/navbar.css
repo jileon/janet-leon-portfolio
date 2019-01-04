@@ -4,14 +4,10 @@
 
   position: fixed;
   top: 0;
-  /* left: 2.4%; 
-  width: 95vw; */
   width: 100vw;
   z-index: 5;
   background: #e9d9d4e1;
   height: 50px;
-
-  margin: 0 auto;
   border-bottom: 1px solid black;
 }
 
@@ -51,10 +47,11 @@
   border-bottom: 2px solid rgb(110, 103, 102);
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 660px) {
   #navbar ul {
     text-align: center;
     font-size: 1.3rem;
-    margin-right: 0px;
+    align-items: center;
+    justify-content: center;
   }
 }
