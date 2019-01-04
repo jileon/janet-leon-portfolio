@@ -1,6 +1,7 @@
 .outline-section {
   /* border: 2px solid #635F5F; */
-  width: 85vw;
+  width: 90vw;
+  max-width: 1100px;
   margin: 0 auto;
   height: 100%;
   display: flex;
@@ -49,18 +50,4 @@ justify-self: flex-end; */
 #about,
 #work {
   height: 70px;
-}
-
-.signature {
-  background: #e9d9d4e1;
-  font-family: Roboto Condensed;
-  font-style: normal;
-  font-weight: normal;
-  color: #916e6d;
-  margin: 0 auto;
-  width: 90%;
-  margin: 0 auto;
-  padding: 4px 20px;
-  text-align: right;
-  background: rgba(218, 216, 215, 0.938);
 }

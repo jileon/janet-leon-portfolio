@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaDownload, FaLinkedinIn, FaGithub, FaTwitter } from 'react-icons/fa';
 import { IconContext } from 'react-icons';
+import { MdEmail } from 'react-icons/md';
 import './contact-ftr.css';
 
 export default function ContactFooter() {
@@ -11,7 +12,15 @@ export default function ContactFooter() {
           <div className="contact-info">
             <h3>Info</h3>
             <h4>Contact</h4>
-            <p>ajleon00@gmail.com / 213-375-8647</p>
+            <a
+              href="mailto:someone@example.com?Subject=Hello%20again"
+              target="_top"
+            >
+              <IconContext.Provider value={{ className: 'react-icons' }}>
+                <MdEmail />
+              </IconContext.Provider>
+              ajleon00@gmail.com
+            </a>
           </div>
         </div>
         <div className="connect">
@@ -68,6 +77,7 @@ export default function ContactFooter() {
             </a>
           </div>
         </div>
+        <p className="signature">Designed and Built by Janet Leon</p>
       </section>
     </>
   );
