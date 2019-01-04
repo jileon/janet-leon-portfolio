@@ -50,6 +50,15 @@
   box-sizing: border-box;
 }
 
+.contact-info a {
+  margin-top: 10px;
+  font-size: 25px;
+  color: rgb(110, 103, 102);
+  text-decoration: none;
+  display: block;
+  background: none;
+  box-sizing: border-box;
+}
 .connect-buttons a {
   margin-top: 10px;
   font-size: 25px;
@@ -72,6 +81,10 @@
   box-sizing: border-box;
 }
 
+.contact-info a:hover {
+  text-decoration-line: underline;
+}
+
 .connect-buttons a:hover p {
   color: #fff;
 }
@@ -88,11 +101,16 @@
 .connect-buttons a:hover .react-icons {
   color: #fff;
 }
-
+.contact-info p .react-icons {
+  color: rgba(110, 103, 102, 0.801);
+  font-size: 25px;
+  margin-right: 10px;
+  display: block;
+}
 .connect-buttons p .react-icons {
   color: rgba(110, 103, 102, 0.801);
   font-size: 25px;
-  margin: 0px 10px;
+  margin-left: 10px;
   display: block;
 }
 
@@ -114,33 +132,6 @@
   text-align: left;
 }
 
-.contact-info a {
-  font-family: Roboto Condensed;
-  font-size: 20px;
-  color: rgb(110, 103, 102);
-  text-decoration: none;
-  padding: 0px;
-  margin-top: 20px;
-  box-sizing: border-box;
-  width: 100%;
-}
-
-.contact-info a:hover {
-  text-decoration-line: underline;
-}
-
-.contact-info a {
-  font-family: Roboto Condensed;
-  font-size: 20px;
-  color: rgb(110, 103, 102);
-  text-decoration: none;
-  padding: 0px;
-  margin-top: 20px;
-  display: block;
-
-  width: 100%;
-}
-
 .contact .contact-info h3 {
   font-size: 45px;
   margin-top: 5px;
@@ -158,6 +149,11 @@
   margin-top: 30px;
 }
 
+.contact-info a p {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
 .connect-buttons a p {
   display: flex;
   flex-direction: row;
@@ -165,12 +161,6 @@
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-}
-
-.contact .contact-info .react-icons {
-  padding: 0px;
-  text-align: left;
-  margin-left: 0px;
 }
 
 .signature {
