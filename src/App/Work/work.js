@@ -64,7 +64,7 @@ export default function Work() {
             number="03"
             name="Knowted"
             URI="https://knowted.netlify.com/"
-            image={require('../images/knowted.gif')}
+            image={require('../images/knowted.png')}
             demo={true}
             demoURI="https://knowted.netlify.com/demo"
             gitHubURI="https://github.com/jileon/knowted-client"

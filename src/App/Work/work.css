@@ -159,6 +159,7 @@
   }
   .project-header {
     width: 100%;
+    margin-top: 15px;
   }
 
   .project-header h4 {
