@@ -47,11 +47,12 @@
   border-bottom: 2px solid rgb(110, 103, 102);
 }
 
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 760px) {
   #navbar ul {
     text-align: center;
     font-size: 1.3rem;
     align-items: center;
     justify-content: center;
+    margin-right: 0px;
   }
 }
