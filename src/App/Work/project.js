@@ -54,7 +54,7 @@ export default function Project(props) {
             data-aos-easing="ease-in-sine"
             className="project-img"
           >
-            <img src={props.image} alt="project image" />
+            <img src={props.image} alt="project" />
           </div>
         </section>
 
