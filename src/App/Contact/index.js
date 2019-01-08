@@ -16,12 +16,14 @@ export default function ContactFooter() {
               href="mailto:someone@example.com?Subject=Hello%20again"
               target="_top"
             >
-              <p>
+              <span>
+                {' '}
                 <IconContext.Provider value={{ className: 'react-icons' }}>
-                  <MdEmail />
+                  <MdEmail className="email" />
                 </IconContext.Provider>
-                ajleon00@gmail.com
-              </p>
+              </span>
+
+              <span>ajleon00@gmail.com</span>
             </a>
           </div>
         </div>

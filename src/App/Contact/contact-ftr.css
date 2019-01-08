@@ -50,18 +50,23 @@
   box-sizing: border-box;
 }
 
+.contact-info a,
+.connect-buttons a {
+  font-family: Roboto Condensed;
+  font-size: 25px;
+}
 .contact-info a {
   margin-top: 10px;
-  font-size: 25px;
   color: rgb(110, 103, 102);
   text-decoration: none;
   display: block;
   background: none;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
 }
 .connect-buttons a {
   margin-top: 10px;
-  font-size: 25px;
   color: rgb(110, 103, 102);
   text-decoration: none;
   border: 2px solid rgb(110, 103, 102);
@@ -92,7 +97,6 @@
 .connect-buttons p {
   vertical-align: middle;
   position: relative;
-  font-family: Roboto Condensed;
   font-style: normal;
   font-weight: normal;
   top: 30%;
@@ -102,11 +106,21 @@
   color: #fff;
 }
 .contact-info p .react-icons {
+  /* color: rgba(110, 103, 102, 0.801); */
+  /* font-size: 25px; */
+  /* margin-right: 10px; */
+  /* min-height: 10px;
+  min-width: 10px;
+  display: block;
+  border: 1px solid white; */
+}
+.email {
   color: rgba(110, 103, 102, 0.801);
-  font-size: 25px;
-  margin-right: 10px;
+  min-height: 10px;
+  min-width: 10px;
   display: block;
 }
+
 .connect-buttons p .react-icons {
   color: rgba(110, 103, 102, 0.801);
   font-size: 25px;
@@ -149,11 +163,6 @@
   margin-top: 30px;
 }
 
-.contact-info a p {
-  display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
-}
 .connect-buttons a p {
   display: flex;
   flex-direction: row;
@@ -193,5 +202,29 @@
   .contact .contact-info {
     width: 100%;
     margin: 0px 0px 10px 0px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .contact-info a,
+  .connect-buttons a {
+    font-family: Roboto Condensed;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .contact-info a,
+  .connect-buttons a {
+    font-family: Roboto Condensed;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .contact-info a,
+  .connect-buttons a {
+    font-family: Roboto Condensed;
+    font-size: 25px;
   }
 }
