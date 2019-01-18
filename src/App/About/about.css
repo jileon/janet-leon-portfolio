@@ -78,7 +78,7 @@
 .title {
   border-bottom: 1px solid rgba(196, 192, 190, 0.897);
   display: block;
-  width: 70%;
+  width: 75%;
 }
 
 .bio-tools strong {
@@ -142,5 +142,9 @@
     font-size: 1.1rem;
     text-align: left;
     color: #494646;
+  }
+
+  .title {
+    width: 100%;
   }
 }

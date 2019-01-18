@@ -69,7 +69,8 @@ export default function AboutMe(props) {
                   </p>
                   <p>
                     <strong> Frontend: </strong> <br />
-                    JavaScript, React, Redux,jQuery, HTML5, CSS3 <br />
+                    JavaScript, React, Redux,jQuery, HTML5, CSS3, Bootstrap
+                    <br />
                   </p>
                   <p>
                     <strong>Backend: </strong>Node.js, Express, PostgreSQL,
