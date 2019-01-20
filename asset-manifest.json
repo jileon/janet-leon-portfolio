@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.28eaad7f.chunk.css",
-  "main.js": "/static/js/main.e6449b77.chunk.js",
-  "main.js.map": "/static/js/main.e6449b77.chunk.js.map",
+  "main.js": "/static/js/main.bfc3c842.chunk.js",
+  "main.js.map": "/static/js/main.bfc3c842.chunk.js.map",
   "static/css/1.47e28d7c.chunk.css": "/static/css/1.47e28d7c.chunk.css",
   "static/js/1.4b43a6d4.chunk.js": "/static/js/1.4b43a6d4.chunk.js",
   "static/js/1.4b43a6d4.chunk.js.map": "/static/js/1.4b43a6d4.chunk.js.map",
@@ -13,10 +13,10 @@
   "static/media/knowted.png": "/static/media/knowted.19498ffb.png",
   "static/media/dig.png": "/static/media/dig.d81bea40.png",
   "static/media/cbcburrito.png": "/static/media/cbcburrito.802d1176.png",
-  "static/media/JANET_LEON_WEB_DEV_2019_Public.pdf": "/static/media/JANET_LEON_WEB_DEV_2019_Public.73f8935c.pdf",
-  "static/css/1.47e28d7c.chunk.css.map": "/static/css/1.47e28d7c.chunk.css.map",
+  "static/media/JANET_LEON_WEB_DEV_Public.pdf": "/static/media/JANET_LEON_WEB_DEV_Public.8a311e8b.pdf",
   "static/css/main.28eaad7f.chunk.css.map": "/static/css/main.28eaad7f.chunk.css.map",
+  "static/css/1.47e28d7c.chunk.css.map": "/static/css/1.47e28d7c.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.e525c1a054936e948b049c922fd0f832.js": "/precache-manifest.e525c1a054936e948b049c922fd0f832.js",
+  "precache-manifest.1f38b8dcc0c3a7521b98ed1714cc8a18.js": "/precache-manifest.1f38b8dcc0c3a7521b98ed1714cc8a18.js",
   "service-worker.js": "/service-worker.js"
 }
