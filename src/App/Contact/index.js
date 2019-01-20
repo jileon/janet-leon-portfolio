@@ -69,7 +69,7 @@ export default function ContactFooter() {
             </a>
 
             <a
-              href={require('../Files/JANET_LEON_WEB_DEV_2019_Public.pdf')}
+              href={require('../Files/JANET_LEON_WEB_DEV_Public.pdf')}
               download
             >
               <p>
