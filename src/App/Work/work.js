@@ -79,7 +79,7 @@ export default function Work() {
                 <br />{' '}
                 <span className="tech-stack">
                   <strong>Frontend: </strong> React, Redux, HTML,
-                  StyledComponetns, React Beautiful DnD, React-Quill, Enzyme,
+                  StyledComponents, React Beautiful DnD, React-Quill, Enzyme,
                   Jest, Immer
                   <br />
                   <span className="back-end">
