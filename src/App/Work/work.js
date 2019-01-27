@@ -95,7 +95,7 @@ export default function Work() {
             headerClass="header3"
             number="04"
             name="Dig"
-            URI="http://jleondig.myartsonline.com/"
+            URI="https://jileon.github.io/dig-plantNursery/"
             image={require('../images/dig.png')}
             gitHubURI="https://github.com/jileon/dig-plantNursery"
             Text={
@@ -115,7 +115,7 @@ export default function Work() {
             headerClass="header3"
             number="05"
             name="California Burrito"
-            URI="http://jleoncbc.mypressonline.com/"
+            URI="https://jileon.github.io/cbc-restaurant/index.html"
             gitHubURI="https://github.com/jileon/cbc-restaurant"
             image={require('../images/cbcburrito.png')}
             Text={
