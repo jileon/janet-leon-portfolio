@@ -13,7 +13,7 @@ export default function ContactFooter() {
             <h3>Info</h3>
             <h4>Contact</h4>
             <a
-              href="mailto:someone@example.com?Subject=Hello%20again"
+              href="mailto:ajleon00@gmail.com?Subject=Hello"
               target="_top"
             >
               <span>
