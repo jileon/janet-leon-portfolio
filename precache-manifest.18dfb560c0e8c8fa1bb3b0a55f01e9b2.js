@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "b51baea7a82348bb5031",
-    "url": "/static/css/main.28eaad7f.chunk.css"
+    "revision": "fbee454f0e81cd008d6b",
+    "url": "/static/css/main.172baaee.chunk.css"
   },
   {
-    "revision": "b51baea7a82348bb5031",
-    "url": "/static/js/main.b51baea7.chunk.js"
+    "revision": "fbee454f0e81cd008d6b",
+    "url": "/static/js/main.fbee454f.chunk.js"
   },
   {
-    "revision": "4b43a6d476ddc3f31a71",
-    "url": "/static/css/1.47e28d7c.chunk.css"
+    "revision": "f7b143261eacadff189d",
+    "url": "/static/css/1.99876215.chunk.css"
   },
   {
-    "revision": "4b43a6d476ddc3f31a71",
-    "url": "/static/js/1.4b43a6d4.chunk.js"
+    "revision": "f7b143261eacadff189d",
+    "url": "/static/js/1.f7b14326.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/static/media/JANET_LEON_WEB_DEV_Public.8a311e8b.pdf"
   },
   {
-    "revision": "95748ee14d7a87c8db09cfba2e15b48e",
+    "revision": "e50f466a9497bad211952c0a882de06e",
     "url": "/index.html"
   }
 ];
