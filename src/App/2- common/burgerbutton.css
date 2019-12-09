@@ -1,16 +1,18 @@
 .burger-container {
-    cursor: pointer;
-    margin-top: 0px;
-    padding-top:20px;
-    text-align: right; 
+  cursor: pointer;
+  margin-top: 0px;
+  padding-top: 20px;
+  text-align: right;
+}
 
-  }
-  
-  .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
-    background: #635F5F;
-    margin: 6px 0;
-    transition: 0.4s;
-    text-align: right;
-  }
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background: #635f5f;
+  margin: 6px 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  text-align: right;
+}

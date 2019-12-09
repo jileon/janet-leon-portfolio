@@ -1,5 +1,10 @@
 .aboutMe {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
   width: 95%;
   min-height: 80vh;
@@ -100,6 +105,9 @@
   .aboutMe {
     width: 90%;
     height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
 

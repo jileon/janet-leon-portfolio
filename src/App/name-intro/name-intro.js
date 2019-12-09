@@ -1,8 +1,8 @@
-import React from 'react';
-import './name-intro.css';
+import React from "react";
+import "./name-intro.css";
 
 export function MyName() {
-  const webDev = '<webdev/>';
+  const webDev = "<webdev/>";
   return (
     <header id="home" className="header-section">
       <nav className="second-navbar">
@@ -41,18 +41,21 @@ export function MyName() {
           </li>
         </ul>
       </nav>
-      <div
-        data-aos="fade"
-        data-aos-offset="100"
-        data-aos-easing="ease-in-sine"
-        data-aos-delay="150"
-        className="name-intro"
-      >
-        <h1>
-          Janet <br />
-          Leon
-        </h1>
-        <h2>{webDev}</h2>
+
+      <div className="name-intro__layout">
+        <div
+          data-aos="fade"
+          data-aos-offset="100"
+          data-aos-easing="ease-in-sine"
+          data-aos-delay="150"
+          className="name-intro"
+        >
+          <h1>
+            Janet <br />
+            Leon
+          </h1>
+          <h2>{webDev}</h2>
+        </div>
       </div>
     </header>
   );
