@@ -69,11 +69,7 @@ export default function AboutMe(props) {
                   </p>
                   <p>
                     <strong> Frontend: </strong> <br />
-<<<<<<< HEAD
-                    JavaScript, React, Redux,jQuery, HTML5, CSS3, Sass,
-=======
                     JavaScript, React, Redux, jQuery, HTML5, CSS3, Sass,
->>>>>>> master
                     Bootstrap
                     <br />
                   </p>
