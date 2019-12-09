@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "fbee454f0e81cd008d6b",
-    "url": "/static/css/main.172baaee.chunk.css"
+    "revision": "b83fccfef3d64cfcd8d8",
+    "url": "/static/css/main.814ce87a.chunk.css"
   },
   {
-    "revision": "fbee454f0e81cd008d6b",
-    "url": "/static/js/main.fbee454f.chunk.js"
+    "revision": "b83fccfef3d64cfcd8d8",
+    "url": "/static/js/main.b83fccfe.chunk.js"
   },
   {
     "revision": "f7b143261eacadff189d",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/static/media/JANET_LEON_WEB_DEV_Public.8a311e8b.pdf"
   },
   {
-    "revision": "e50f466a9497bad211952c0a882de06e",
+    "revision": "ce50f3654eaac9c3733d89e656e28a87",
     "url": "/index.html"
   }
 ];
