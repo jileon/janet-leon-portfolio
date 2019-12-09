@@ -1,6 +1,6 @@
-import React from 'react';
-import Project from './project';
-import './work.css';
+import React from "react";
+import Project from "./project";
+import "./work.css";
 
 export default function Work() {
   return (
@@ -13,13 +13,13 @@ export default function Work() {
             name="Newsflash"
             URI="https://newsflashapp.herokuapp.com/"
             gitHubURI="https://github.com/jileon/react-newsFlash-client"
-            image={require('../images/newsflash.png')}
+            image={require("../images/newsflash.png")}
             Text={
               <p>
                 News Flash is an app designed to get your news and save articles
                 all in one place. Multiple sources are searched using the api
                 from https://newsapi.org/. Both front and back ends are fully
-                built and designed by me. <br />{' '}
+                built and designed by me. <br />{" "}
                 <span className="tech-stack">
                   <strong>Frontend: </strong> React, Redux, HTML, CSS
                   <br />
@@ -38,7 +38,7 @@ export default function Work() {
             name="Learning Spanish"
             URI="https://learn-spanish-app.herokuapp.com/"
             gitHubURI="https://github.com/jileon/learning-Spanish-react-client"
-            image={require('../images/spanish-desk.png')}
+            image={require("../images/spanish-desk.png")}
             Text={
               <p>
                 This application teaches users simple spanish vocabulary. A
@@ -46,7 +46,7 @@ export default function Work() {
                 is guessed correctly, or incorrectly. The more incorrect words a
                 user guesses, the more frequent that word pops up. This project
                 is a collaboration between myself and developer Aaron Whitehead.
-                <br />{' '}
+                <br />{" "}
                 <span className="tech-stack">
                   <strong>Frontend: </strong> React, Redux, HTML, CSS
                   <br />
@@ -64,7 +64,7 @@ export default function Work() {
             number="03"
             name="Knowted"
             URI="https://knowted.netlify.com/"
-            image={require('../images/knowted.png')}
+            image={require("../images/knowted.png")}
             demo={true}
             demoURI="https://knowted.netlify.com/demo"
             gitHubURI="https://github.com/jileon/knowted-client"
@@ -76,10 +76,10 @@ export default function Work() {
                 video side by side. This is a collaboration with 3 other
                 developers-Timothy Chang, Chelsea Kent, and Morgan Newman. My
                 focus was mainly the frontend.
-                <br />{' '}
+                <br />{" "}
                 <span className="tech-stack">
                   <strong>Frontend: </strong> React, Redux, HTML,
-                  StyledComponetns, React Beautiful DnD, React-Quill, Enzyme,
+                  StyledComponents, React Beautiful DnD, React-Quill, Enzyme,
                   Jest, Immer
                   <br />
                   <span className="back-end">
@@ -95,15 +95,15 @@ export default function Work() {
             headerClass="header3"
             number="04"
             name="Dig"
-            URI="http://jleondig.myartsonline.com/"
-            image={require('../images/dig.png')}
+            URI="https://jileon.github.io/dig-plantNursery/"
+            image={require("../images/dig.png")}
             gitHubURI="https://github.com/jileon/dig-plantNursery"
             Text={
               <p>
                 This is a simple static website created as a personal exercise.
                 The client here is a nursery that wants to advertise their
                 plants and pots. Designed and built by me.
-                <br />{' '}
+                <br />{" "}
                 <span className="tech-stack">
                   <strong>Built With: </strong> HTML5, CSS3, Bootstrap
                 </span>
@@ -115,15 +115,15 @@ export default function Work() {
             headerClass="header3"
             number="05"
             name="California Burrito"
-            URI="http://jleoncbc.mypressonline.com/"
+            URI="https://jileon.github.io/cbc-restaurant/index.html"
             gitHubURI="https://github.com/jileon/cbc-restaurant"
-            image={require('../images/cbcburrito.png')}
+            image={require("../images/cbcburrito.png")}
             Text={
               <p>
                 This is a simple static website built as a personal exercise.
-                The client here is a reataurant that wants to provide their
+                The client here is a restaurant that wants to provide their
                 contact information and menu. Designed and built by me.
-                <br />{' '}
+                <br />{" "}
                 <span className="tech-stack">
                   <strong>Built With: </strong> HTML5, CSS3, Bootstrap
                 </span>

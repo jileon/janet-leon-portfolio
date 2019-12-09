@@ -1,5 +1,5 @@
-import React from 'react';
-import './about.css';
+import React from "react";
+import "./about.css";
 
 export default function AboutMe(props) {
   return (
@@ -24,8 +24,8 @@ export default function AboutMe(props) {
                     data-aos-easing="ease-in-sine"
                     data-aos-delay="100"
                   >
-                    {' '}
-                    UCLA Alum{' '}
+                    {" "}
+                    UCLA Alum{" "}
                   </li>
                   <li
                     data-aos="fade"
@@ -33,7 +33,7 @@ export default function AboutMe(props) {
                     data-aos-easing="ease-in-sine"
                     data-aos-delay="150"
                   >
-                    {' '}
+                    {" "}
                     Thinkful Graduate
                   </li>
                   <br />
@@ -43,7 +43,7 @@ export default function AboutMe(props) {
                     data-aos-easing="ease-in-sine"
                     data-aos-delay="200"
                   >
-                    Aerial Hobbyist{' '}
+                    Aerial Hobbyist{" "}
                   </li>
                   <li
                     data-aos="fade"
@@ -69,13 +69,18 @@ export default function AboutMe(props) {
                   </p>
                   <p>
                     <strong> Frontend: </strong> <br />
+<<<<<<< HEAD
                     JavaScript, React, Redux,jQuery, HTML5, CSS3, Sass,
+=======
+                    JavaScript, React, Redux, jQuery, HTML5, CSS3, Sass,
+>>>>>>> master
                     Bootstrap
                     <br />
                   </p>
                   <p>
                     <strong>Backend: </strong>Node.js, Express, PostgreSQL,
-                    MongoDB, Mocha & Chai, Passport, REST APIs v3
+                    MongoDB, Mocha & Chai, Passport, REST APIs v3, PHP,
+                    ColdFusion
                   </p>
                   <p>
                     <strong>Other Tools: </strong>
