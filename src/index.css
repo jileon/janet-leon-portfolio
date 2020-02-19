@@ -153,7 +153,7 @@ table {
 }
 
 body {
-  background: url('../src/App/images/background.png') no-repeat center left;
+  background: url('../src/App/images/background.jpg') no-repeat center left;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
