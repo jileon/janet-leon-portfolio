@@ -57,7 +57,7 @@ export default function AboutMe(props) {
               </div>
               <div data-aos="fade-left" className="about-description">
                 <p className="bio-paragraph bio-paragraph-about">
-                  Hi there! I'm Janet and I'm passionate about about taking my
+                  Hi there! I'm Janet and I'm passionate about taking my
                   digital toolset to build beautiful web interactions.I see web
                   development as a creative outlet and a team sport. I love
                   collaborating with others to create the best possible product.
